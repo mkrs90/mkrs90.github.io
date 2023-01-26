@@ -1,4 +1,4 @@
-# Basic Blog
+# Blog Post #1
 
 ### Was your first week what you expected? Why? Why not?
 
