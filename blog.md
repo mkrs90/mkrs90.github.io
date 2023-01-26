@@ -10,19 +10,17 @@ I'm excited to learn more about javascript. I find it extremely interesting and 
 
 ### What is something about you that can only be learned by reading this blog? 
 
-Here's a tidbit not a lot of people know - I actually have a degree in History with a focus on Russian Studies. Here's a tidbit not a lot of people know - I actually have a degree in History with a focus on Russian Studies. I also love being creative! One of my favorite things to do is to paint. When I was a kid I loved watching Bob Ross which really inspired me to just create without worry of mistakes.  
+Here's a tidbit not a lot of people know - I actually have a degree in History with a focus on Russian Studies. Here's a tidbit not a lot of people know - I actually have a degree in History with a focus on Russian Studies. I also **love** being creative! One of my favorite things to do is to paint. When I was a kid I loved watching Bob Ross which really inspired me to just create without worry of mistakes.  
 
-![bob ross fall like a waterfall] (https://www.boredpanda.com/blog/wp-content/uploads/2022/06/bob-ross-quotes-cover_800.png)
-
+![bob ross fall like a waterfall] (/img/bob-ross-quotes-cover_800.png)
 
 I was working on the very last challenge on grasshopper intro to webpages and couldn't figure out why this wasn't working. Then I stopped and read through it and noticed I was missing a "t"! 
 
-`  
-    button.addEventListener('click', () => {
-        if (button.textContent === 'Like') {
-            button.textConent = 'Liked!';
+`...button.addEventListener('click', () => {
+    if (button.textContent === 'Like') {
+        button.textConent = 'Liked!';
         } else {
-            button.textContent = 'Like';
+        button.textContent = 'Like';
         };
     });
 }`
