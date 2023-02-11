@@ -48,3 +48,19 @@ I'm a hands on learner. There is just so much coming at you during Onboarding yo
 ### How did you overcome challenges during Onboarding? 
 
 Anytime I would come across a challenge I tried to understand the root of it? I would start by asking myself questions. It always starts off with "Come on really?? Why isn't this working?" Well, what exactly am I trying to do? What does this function/method do? Lets just console.log everything! Sometimes it still doesn't work. That's when I have to tell myself to step away and come back later. And it's usually when I come back I can solve it as soon as I sit down. 
+
+
+
+# Blog Post #3
+
+### What is the number one thing that held you back this week? Why?
+
+Bootstrap. I see the possibilities with it but ultimately I find it extremely cumbersome to use. I feel like it's extremely hard to organize your ideas with bootstrap and pin point small design changes you want to make. Plus the fact that you can write all the class styles in any which order you want on a line. WHY?? If I were to go back and look at that code after a week or month I feel like I would spend another month just trying to decipher it. Anyways, Bootstrap !== myFav. (week three and I'm already making programming jokes)  
+
+### What is the one thing you would like to learn more about regarding JavaScript (JSON, Data Structures), Bootstrap, or Atomic Design?
+
+Probably JS Data Structures, I feel like we've only scratched the surface of what JS can do. After that I was extremely interested in the idea of Atomic Design and found the way it was explained in class to be useful when breaking down webpages and seeing smaller components which made it easier to think about things. 
+
+### What is your "Why"?
+
+Since I was a kid I have always loved technology but was never given the opportunity to pursue it. I found myself working for an established startup in Louisville as a manufacturing tech. a few years back that allowed me to work closely with software engineers and I was amazed by what they were able to do. During covid all my bosses were laid off and the engineers left to work safely from their homes. I had to stay at the office to do my work and ended up working long days doing engineering work for manufacturers pay. I realized just how little freedom I had and felt like I could be doing more with my life. I wanted to code and do that amazing stuff the software engineers were doing. It was a nice dream at the time but I couldn't quit my job and put my family at risk. My husband was trying to pursue his own dreams of running a startup so money was tight. In March of 2022 the new owners of company showed up and fired over half of my coworkers and told the rest of us that we may or may not have a job after september. My husband said he would put his dreams on hold for mine and found a stable job to support us. So my why? I do it for him, I do it so I can spend more time my aging/sick parents, I do it to support my family, but I do it for me most of all because I want to prove I can do it, be successful at it, and have that freedom I've always dreamed of. 
