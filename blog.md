@@ -51,7 +51,7 @@ Anytime I would come across a challenge I tried to understand the root of it? I 
 
 
 
-# Blog Post #3
+# Blog Post #3 -For the love of Code (Valentines Day)
 
 ### What is the number one thing that held you back this week? Why?
 
@@ -64,3 +64,13 @@ Probably JS Data Structures, I feel like we've only scratched the surface of wha
 ### What is your "Why"?
 
 Since I was a kid I have always loved technology but was never given the opportunity to pursue it. I found myself working for an established startup in Louisville as a manufacturing tech. a few years back that allowed me to work closely with software engineers and I was amazed by what they were able to do. During covid all my bosses were laid off and the engineers left to work safely from their homes. I had to stay at the office to do my work and ended up working long days doing engineering work for manufacturers pay. I realized just how little freedom I had and felt like I could be doing more with my life. I wanted to code and do that amazing stuff the software engineers were doing. It was a nice dream at the time but I couldn't quit my job and put my family at risk. My husband was trying to pursue his own dreams of running a startup so money was tight. In March of 2022 the new owners of company showed up and fired over half of my coworkers and told the rest of us that we may or may not have a job after september. My husband said he would put his dreams on hold for mine and found a stable job to support us. So my why? I do it for him, I do it so I can spend more time my aging/sick parents, I do it to support my family, but I do it for me most of all because I want to prove I can do it, be successful at it, and have that freedom I've always dreamed of. 
+
+
+# Blog Post #4
+
+### What did you learn about that helped you understand the development process?
+
+With this weeks weather app project it really helped me understand the importance of structuring code. JS is super strict when it comes to reading the code from top to bottom and adding an API complicates that. So you really have to think about how to organize your code for everything to work correctly. I'm also learning the importance of pseudocode and what an important part it plays in the development process. Really spending that time up front working through the logic of what you're trying to accomplish really sets the tone for the rest of the project. It's one of the things I really want to work on and get better at.
+
+### What does it mean to develope good code?
+
