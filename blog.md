@@ -74,3 +74,38 @@ With this weeks weather app project it really helped me understand the importanc
 
 ### What does it mean to develope good code?
 
+
+
+
+
+# Blog Post Article
+
+What is Pseudocode and how does it help with programming?
+
+There are very few people who can pick up a paintbrush and paint a masterpiece without first knowing what they want to paint. Even the greats like Michalangelo and Lenardo did some sort of rough sketch before painting their masterpieces. It's just a simple part of life. You need to have an idea first before jumping head first into a major project or halfway through you might find out that you're going in the wrong direction and wasting all that time and paint that will need to just be tossed to the side. 
+
+Coding and painting share a lot of similarities. One of those being the importance of planning and sketches. While we can all imagine what sketches look like when it comes to art, the drawing of simple shapes and figures, how does one achieve that with code? Simple, it’s Pseudocode. 
+
+“pseudocode is a plain language description of the steps in an algorithm or another system. Pseudocode often uses structural conventions of a normal programming language, but is intended for human reading rather than machine reading.”  -wikipedia
+
+Plan out your Project.
+Before starting your code, just like your painting, you need to have an idea of what you want to achieve. Pseudocoding allows you to break down complex problems and turn them into simple easy to read steps. Imagine you wanted to paint a forest. Where do you start? Well, what elements do you want to include? Trees of course, maybe a stream, the sky? Now, what if we wanted to create a website? You need a navbar, a title, maybe an image. Break the ideas down into manageable items and move up from there.
+
+Research different elements. 
+Once we’ve broken down our project into smaller pieces we can start to see what we need to accomplish our goal. We need a button on our website, but we’re not sure what that takes so we use pseudocode to plan that out. What do we want the button to do, do we click it? How does it get clicked? What happens when I click it? Can I click it again? Researching those questions and adding answers to your pseudocode helps you see how to accomplish that task. 
+
+ 
+
+
+Helps you see the forest through all the trees. 
+
+Have others review your code.
+
+Ultimate goal is to have it close enough to what you want before you start so when you do start the ideas are already there. 
+
+
+
+It doesn't mean things can't change later
+but it certainly helps to know at the very least what colors you need to use. 
+
+

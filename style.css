@@ -3,7 +3,7 @@
 }
 
 .off-white {
-    background-color: rgb(227, 219, 219);
+    background-color: #F2EBDF;
 }
 
 
@@ -11,9 +11,9 @@
 #navBar {
     margin: 0;
     padding: 0;
-    background-color: rgb(37, 39, 36);
+    background-color: #182526;
     font-size: 20px;
-    color:  rgb(227, 219, 219);
+    color:  #F2EBDF;
   }
 
 li {
@@ -23,13 +23,13 @@ li {
     
 }
 
-a:link { text-decoration: none; color:  rgb(227, 219, 219);;}
+a:link { text-decoration: none; color:  #F2EBDF;}
 
-a:visited { text-decoration: none; color:  rgb(227, 219, 219);;}
+a:visited { text-decoration: none; color:  #F2EBDF;}
 
-a:hover { text-decoration: none; color:  rgb(227, 219, 219);;}
+a:hover { text-decoration: none; color:  #F2EBDF;}
 
-a:active { text-decoration: none; color:  rgb(227, 219, 219);;}
+a:active { text-decoration: none; color:  #F2EBDF;}
 
 #splash {
     height: 875px;
@@ -51,17 +51,25 @@ a:active { text-decoration: none; color:  rgb(227, 219, 219);;}
 
 #splash_title {
     font-size: 120px;
-    color:rgb(227, 219, 219);
+    color:#F2EBDF;
 }
 
 #splash_text {
     font-size: 50px;
-    color:rgb(	227, 219, 219);
+    color:#F2EBDF;
     font-style: italic;
 }
 
 #pleaseWork {
     height: 300px;
+}
+
+#aboutPage {
+    background-color: #F2EBDF;
+}
+
+#about_img_container {
+    background-color: #555945;
 }
 
 /* font-family: 'Cabin', sans-serif;
