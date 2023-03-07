@@ -1,0 +1,81 @@
+.dark-red {
+    background-color: rgb(102, 16, 16);
+}
+
+.off-white {
+    background-color: #F2EBDF;
+}
+
+
+
+#navBar {
+    margin: 0;
+    padding: 0;
+    background-color: #182526;
+    font-size: 20px;
+    color:  #F2EBDF;
+  }
+
+li {
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+
+a:link { text-decoration: none; color:  #F2EBDF;}
+
+a:visited { text-decoration: none; color:  #F2EBDF;}
+
+a:hover { text-decoration: none; color:  #F2EBDF;}
+
+a:active { text-decoration: none; color:  #F2EBDF;}
+
+#splash {
+    height: 875px;
+    background: rgba(0, 0, 0, .50) url(./img/hiking_path.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#main_content {
+    background-color:  rgb(102, 16, 16);
+    height: 600px;
+}
+
+#splash_title {
+    font-size: 120px;
+    color:#F2EBDF;
+}
+
+#splash_text {
+    font-size: 50px;
+    color:#F2EBDF;
+    font-style: italic;
+}
+
+#pleaseWork {
+    height: 300px;
+}
+
+#aboutPage {
+    background-color: #F2EBDF;
+}
+
+#about_img_container {
+    background-color: #555945;
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+    
+}
+
+/* font-family: 'Cabin', sans-serif;
+font-family: 'Labrada', serif; */
