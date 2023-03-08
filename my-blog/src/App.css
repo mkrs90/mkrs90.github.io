@@ -35,7 +35,7 @@ a:active { text-decoration: none; color:  #F2EBDF;}
 
 #splash {
   height: 875px;
-  background: rgba(0, 0, 0, .50) url(../src/components/img/hiking_path.jpg);
+  background: rgba(0, 0, 0, .50) url(./img/hiking_path.jpg);
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-position: center;
@@ -72,6 +72,11 @@ a:active { text-decoration: none; color:  #F2EBDF;}
 
 #about_img_container {
   background-color: #555945;
+}
+
+#about_img {
+  border: 20px solid #555945;
+
 }
 
 p {
