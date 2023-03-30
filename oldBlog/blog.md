@@ -74,9 +74,18 @@ With this weeks weather app project it really helped me understand the importanc
 
 ### What does it mean to develope good code?
 
+Code should be DRY - don't repeat yourself, logical, and commented well. I believe these are the 
+key factors that go into developing good code. A lot of this can be accomplished by planning out
+your course of action through pseudocoding before you even start typing code.
 
+### What does it mean to be a good developer?
 
+I think the willingness to learn makes a good developer. There is just so much out there and it's 
+constantly changing. You have to be willing to let your egos go and go out and learn by either reading up on documentation, googling solutions, or talking with others. 
 
+### What is one thing that programmers hate doing?
+
+I'm not sure if it's all programmers but for me personally it's coming back to code that was not commented on or poorly named. It takes a long time to understand what's going on or what your past self was thinking. Especially with learning code so quickly it's difficult to remember why things were being done a certain way - did I now know this at the time? How much does this effect? What does it even do?
 
 # Blog Post Article
 
@@ -110,11 +119,65 @@ but it certainly helps to know at the very least what colors you need to use.
 
 
 
-### Do you thing JavaScript Frameworks and LIbraries are easy or hard to use? Why?
+### Do you think JavaScript Frameworks and LIbraries are easy or hard to use? Why?
+
+Frameworks and libraries do tend to make things easier to use but there is definitely a learning curve to the syntax
+especially just coming off of learning javascript. I think with more practice they will become apart of common 
+workflows and I will definitely appreciate them better.
 
 ### What Frameworks or Libraries are you interested in learning more about?
 
-### Find on emerging JavaScript tool that you would like to learn more about or use in your final project.
+I don't know many at the moment. I have heard of jQuery, phaser.js, and D3 just from looking online. They might be something 
+I look into more in the future.
+
+
+### Find one emerging JavaScript tool that you would like to learn more about or use in your final project.
+
+
+# Blog #7 - CLI
+
+### What have you learned about CLIs? Do you think they are scary?
+
+Command Line Interfaces like npm are pretty cool. It's nice that you are able to type in simple commands and the computer/software is able to perform specific tasks based on that command. It can be somewhat scary to think about, there is a lot of hand waving going on behind the scenes between the command and
+response. So when things "mess up" it can be difficult knowing  what happened, what went wrong, and how do I fix it. 
+
+### If you were to build a CLI, what would it do?
+
+One that automatically sets up your react app for github pages (gh pages) with the appropriate information so you don't have to
+go into package.json and enter information or remember to run the deploy command. 
+
+### List some ideas that without a Framework, would take you a long time to do. 
+
+Anything that requires html and javascript. Being able to make things more dynamic really cuts down on the time it takes to make websites. I can only 
+image the time it would take to make something bigger without having some sort of framework to help
+
+# Sprint 6 - Halfway!
+
+### Now that you are halfway through bootcamp, what has been the biggest hurdle that you have gone past? What do you think is going to be the next biggest thing to power through?
+
+I think my biggest hurdle so far has been learning how I learn. Towards the beginning of the bootcamp I was trying to do it all. Read all the documentation, watch all the videos, find practice examples. Ultimatly I found that I learn the most when I'm doing a project and instead of reading the documentation with no context I have a goal I'm working towards which helps concepts solidify in my brain.
+
+### Compared to earlier, what are three ideas you might want to do for your final project? Are they the same ideas as before, or have they changed now that you understand more about the technology and your limitations?
+
+As I learn new things my ideas change. I've very interested in databases now as well as APIs. My first thought is doing a trail finder app, where people can find different trails to walk in their area and it give information about it as well as ability to rate them and users to join and leave comments. I still think about making a neighborhood news map where users can view a map of their city and see where news stories took place. Third project would be something along the lines of building a e-commerce website for a local business or possibly helping a local nonprofit update their website. 
+
+### What surprised you about your first week in Python and how was it different from your first week in JavaScript? 
+
+It surprised me how similar it was to pseudocode. Python is very easy to read and pretty straight forward. I actually found it really fun to learn. I think it helped to struggle through learning Javascript first and grasping the basic logic concepts needed to program in general but with a language that wasn't as strick as Python. 
+
+# Sprint 7 - Python 
+
+### What are some similarities and differences you can see with JS and Python?
+
+All the same logic concepts are there - it's mainly just differences in syntax. Some differences were how they were viewed, python was all done in the terminal. It felt kind of weird at first compared to viewing javascript in the web console. Also, just how easy python was to read compared to javascript. 
+
+### If you had started with Python instead of JS, how do you think the Bootcamp would be different? Would you have benefited?
+
+If we had started learning Python instead of Javascript I think it things might have been easier to learn at first but the transition between python and javascript would have been more difficult since Python is so much simpler to read than javascript. I think learning javascript first is the appropriate way to go especially after learning HTML and CSS. Giving new learners the ability to visually see how their code is effecting things is a great learning tool in my experience. 
+
+### Think of a project or tech based tool that you use often and think about what the database structure might look like for it. Do you feel like you have a better understanding of how it works now and could you see yourself enjoying building something like that in the future?
+
+I see databases almost everywhere now. From online stores, doctor offices, anything that has inventory, the list could go on and on. After this week I feel like I can see how databases store all this information and the different ways it could be broken up into different tables and how to access those databases. I could absolutely see myself enjoying building something that that in the future. I really enjoyed learning about databases and sql this week and hope to use these more while I continue on my journey of learning code. 
 
 
 
