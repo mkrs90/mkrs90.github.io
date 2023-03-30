@@ -11,7 +11,7 @@ function NavBar() {
                         <ul className="navbar-nav ml-auto">                            
                                 <Link to="/" className="nav-item ms-5 me-5">Home</Link>                        
                                 <Link to="/about" className="nav-item ms-5 me-5">About</Link>
-                                <Link to="/blogs" className="nav-item ms-5 me-5">Blogs</Link>
+                                <Link to="/blogTeaser" className="nav-item ms-5 me-5">Blogs</Link>
                                 <Link to="/projects" className="nav-item ms-5 me-5">Projects</Link>
                                 <Link to="/contact" className="nav-item ms-5">Contact</Link>
                         </ul>

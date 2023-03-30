@@ -3,7 +3,7 @@ import NavBar from './components/NavBar';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
-import Blogs from './components/Blogs';
+import BlogTeaser from './components/BlogTeaser';
 import { Route, Routes } from "react-router-dom";
 
 
@@ -17,7 +17,7 @@ function App() {
           <Route path='/About' element={<About />} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='/Projects' element={<Projects />} />
-          <Route path='/Blogs' element={<Blogs />} />
+          <Route path='/BlogTeaser' element={<BlogTeaser />} />
         </Routes>
       </div>
       

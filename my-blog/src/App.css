@@ -1,14 +1,6 @@
-
-
-.dark-red {
-  background-color: rgb(102, 16, 16);
-}
-
 .off-white {
   background-color: #F2EBDF;
 }
-
-
 
 nav {
   margin: 0;
@@ -52,18 +44,20 @@ a:active { text-decoration: none; color:  #F2EBDF;}
 }
 
 #splash_title {
+  font-family: 'Shadows Into Light', cursive;
   font-size: 120px;
   color:#F2EBDF;
 }
 
 #splash_text {
+  font-family: 'Shadows Into Light', cursive;
   font-size: 50px;
   color:#F2EBDF;
   font-style: italic;
 }
 
 #pleaseWork {
-  height: 300px;
+  height: 200px;
 }
 
 #aboutPage {
@@ -84,5 +78,85 @@ p {
   
 }
 
+.card-footer.card-custom {
+  background-color: rgba(24,37,38,.3);;
+  color: Black;
+}
+
+#projectPage {
+  background-color: #555945;
+}
+
+#projectPage .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #BFAA8F !important;
+  border-color: #260101 !important;
+  color: #260101 !important;
+}
+
+#project_card {
+  background-color: rgb(242,235,223);
+}
+
+#projectHeader {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 120px;
+  color:#F2EBDF;
+}
+
 /* font-family: 'Cabin', sans-serif;
 font-family: 'Labrada', serif; */
+
+
+/* --------------Animated Home Button------------- */
+#arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+#arrow span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid #F2EBDF;
+  border-right: 5px solid #F2EBDF;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: scroll 2s infinite;
+}
+
+#arrow span:nth-child(2){
+  animation-delay: -.2s;
+}
+
+#arrow span:nth-child(3){
+  animation-delay: -.4s;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+/* ----------------- */
+
+#blogteaser {
+  background: url(./img/topagraphicMapImage.png);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
