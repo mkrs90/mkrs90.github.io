@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0df23f84.css",
-    "main.js": "/static/js/main.7e808033.js",
+    "main.css": "/static/css/main.a180972f.css",
+    "main.js": "/static/js/main.80db59c7.js",
     "static/js/787.a361b86b.chunk.js": "/static/js/787.a361b86b.chunk.js",
     "static/media/topagraphicMapImage.png": "/static/media/topagraphicMapImage.502054ab79ea5b1c7e7d.png",
     "static/media/bob-ross-quotes-cover_800.png": "/static/media/bob-ross-quotes-cover_800.89d3d111c1bfb9520355.png",
@@ -16,12 +16,12 @@
     "static/media/tictactoeicon.png": "/static/media/tictactoeicon.2fec71dc0d28943ad447.png",
     "static/media/ks.jpg": "/static/media/ks.a25645dd28a84d23ca81.jpg",
     "index.html": "/index.html",
-    "main.0df23f84.css.map": "/static/css/main.0df23f84.css.map",
-    "main.7e808033.js.map": "/static/js/main.7e808033.js.map",
+    "main.a180972f.css.map": "/static/css/main.a180972f.css.map",
+    "main.80db59c7.js.map": "/static/js/main.80db59c7.js.map",
     "787.a361b86b.chunk.js.map": "/static/js/787.a361b86b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0df23f84.css",
-    "static/js/main.7e808033.js"
+    "static/css/main.a180972f.css",
+    "static/js/main.80db59c7.js"
   ]
 }
