@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a180972f.css",
+    "main.js": "/static/js/main.80db59c7.js",
+    "static/js/787.a361b86b.chunk.js": "/static/js/787.a361b86b.chunk.js",
+    "static/media/topagraphicMapImage.png": "/static/media/topagraphicMapImage.502054ab79ea5b1c7e7d.png",
+    "static/media/bob-ross-quotes-cover_800.png": "/static/media/bob-ross-quotes-cover_800.89d3d111c1bfb9520355.png",
+    "static/media/hiking_path.jpg": "/static/media/hiking_path.844f5bade0f6e1414bee.jpg",
+    "static/media/brainreadericon.png": "/static/media/brainreadericon.aa6a288f101af58643be.png",
+    "static/media/budgeticon.png": "/static/media/budgeticon.92ddec606ec82c3e2fd5.png",
+    "static/media/alarmclockicon.png": "/static/media/alarmclockicon.7ccbc2019902584c448f.png",
+    "static/media/restauranticon.png": "/static/media/restauranticon.e8c796fbdacc7642c8d8.png",
+    "static/media/sqlheroicon.png": "/static/media/sqlheroicon.f516729478c749789ab0.png",
+    "static/media/weathericon.png": "/static/media/weathericon.64bc76fee485bfb35dec.png",
+    "static/media/todolisticon.png": "/static/media/todolisticon.4278a3c8c83ecd7798d5.png",
+    "static/media/tictactoeicon.png": "/static/media/tictactoeicon.2fec71dc0d28943ad447.png",
+    "static/media/ks.jpg": "/static/media/ks.a25645dd28a84d23ca81.jpg",
+    "index.html": "/index.html",
+    "main.a180972f.css.map": "/static/css/main.a180972f.css.map",
+    "main.80db59c7.js.map": "/static/js/main.80db59c7.js.map",
+    "787.a361b86b.chunk.js.map": "/static/js/787.a361b86b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a180972f.css",
+    "static/js/main.80db59c7.js"
+  ]
+}
