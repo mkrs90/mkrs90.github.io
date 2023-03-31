@@ -1,4 +1,4 @@
-
+import bobrossimg from '../img/bob-ross-quotes-cover_800.png';
 
 function Blog(view) {
     
@@ -12,7 +12,7 @@ function Blog(view) {
             answer2: "I'm excited to learn more about javascript. I find it extremely interesting and such a powerful tool. We've only touched on it just a few times within this first week but I'm excited nonetheless.",
             question3: "What is something about you that can only be learned by reading this blog? ",
             answer3: "Here's a tidbit not a lot of people know - I actually have a degree in History with a focus on Russian Studies. I also love being creative! One of my favorite things to do is to paint. When I was a kid I loved watching Bob Ross which really inspired me to just create without worry of mistakes. I also love to hike the trials around Louisville as well as garden. My favorite season is summer!",
-            blogImg: ""
+            blogImg: bobrossimg
         },
         { title: "Onboarding - Sprint 2", body: "I think they are the perfect trio. HTML to lay out your basic format, css to make it nice to look at and javascript...", project: '/' },
         { title: "HTML/CSS/JS/State", body: "What is the number one thing that held you back this week? Why? Bootstrap. I see the possibilities with it but...", project: '/' },
@@ -33,7 +33,7 @@ function Blog(view) {
     
     return (
         <div>
-            <div><h1>Journey Through Code</h1></div>
+            <div id="singleBlogHeader" className="mt-2 text-center">Journey Through Code</div>
             {blogs.filter((blog) => {
                 return blog.id === 1;
                 }).map(function (blog) {
@@ -63,6 +63,7 @@ export const BlogCard = ({ blog }) => {
                 <h5>{blog.question3}</h5>
                 <p>{blog.answer3}</p>
             </div>
+            <img src={blog.blogImg} alt="Bob Ross Happy Trees"/>
         </div>
         )
 }

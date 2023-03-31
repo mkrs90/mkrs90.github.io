@@ -177,3 +177,10 @@ font-family: 'Labrada', serif; */
   color: #3e4437 !important;
 }
 
+/* --------Single Blog Page-------------- */
+
+#singleBlogHeader {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 120px;
+  color: #182526;
+}
