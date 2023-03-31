@@ -4,10 +4,13 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import BlogTeaser from './components/BlogTeaser';
+import Blog from './components/Blog'
 import { Route, Routes } from "react-router-dom";
-
+import { useState } from 'react';
 
 function App() {
+  const [view, setView] = useState(1);
+
   return (
     <>
       <NavBar />
@@ -17,7 +20,8 @@ function App() {
           <Route path='/About' element={<About />} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='/Projects' element={<Projects />} />
-          <Route path='/BlogTeaser' element={<BlogTeaser />} />
+          <Route path='/BlogTeaser' element={<BlogTeaser setView={setView}/>} />
+          <Route path='/Blog' element={<Blog view={view}/>} />
         </Routes>
       </div>
       
