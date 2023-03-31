@@ -88,9 +88,9 @@ p {
 }
 
 #projectPage .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-  background-color: #BFAA8F !important;
-  border-color: #260101 !important;
-  color: #260101 !important;
+ background-color: #d4c9c1 !important;
+  border-color: #d4c9c1 !important;
+  color: #3e4437 !important;
 }
 
 #project_card {
@@ -148,10 +148,10 @@ font-family: 'Labrada', serif; */
   }
 }
 
-/* ----------------- */
+/* --------BLOG PAGE--------- */
 
 #blogteaser {
-  background: url(./img/topagraphicMapImage.png);
+  background: rgba(24,37,38, .20) url(./img/topagraphicMapImage.png);
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-position: center;
@@ -159,4 +159,28 @@ font-family: 'Labrada', serif; */
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+#blogCard {
+  background-color: #a2ac94;
+}
+
+#blogHeader {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 120px;
+  color: #182526;
+}
+
+#blogPage .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #d4c9c1 !important;
+  border-color: #d4c9c1 !important;
+  color: #3e4437 !important;
+}
+
+/* --------Single Blog Page-------------- */
+
+#singleBlogHeader {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 120px;
+  color: #182526;
 }
