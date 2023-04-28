@@ -1,4 +1,5 @@
-import bobrossimg from '../img/bob-ross-quotes-cover_800.png';
+import bobrossimg from '../img/bob-ross-img.png';
+import trailheadimg from '../img/blog_icons/trailhead.png';
 
 function Blog(view) {
     
@@ -33,8 +34,7 @@ function Blog(view) {
 
     
     return (
-        <div className='container-fluid text-center' >
-            <div id="singleBlogHeader" className="mt-2 mb-5 text-center">Journey Through Code</div>
+        <div id="singleBlogMainPage" className='container-fluid p-5' >
             {blogs.filter((blog) => {
                 return blog.id === 1;
                 }).map(function (blog) {
@@ -50,44 +50,30 @@ export default Blog
 
 export const BlogCard = ({ blog }) => {
     return (
-        <div className='container p-5' id='singleBlogPage'>
-            <h3 className='display-5'>{blog.title}</h3>
-            <div>
-                <h5>{blog.question1}</h5>
-                <p>{blog.answer1}</p>
+        <div className='container pt-3 ps-5 pe-5 pb-5' id='singleBlogPage'>
+            <div className="text-center">
+                <div id="singleBlogHeader" className="mt-1 mb-3">Journey Through Code</div>
+                <div id="theTrailHead">The Trail Head</div>
+                <div id="blogTitle" className='display-5'>({blog.title})</div>
+                <img id="blog1Img" src={trailheadimg} alt="trailhead" />
             </div>
-            <div>
-                <h5>{blog.question2}</h5>
-                <p>{blog.answer2}</p>
+            <div className="text-start mt-2 mb-5">
+                <h5 id="blogQuestion">{blog.question1}</h5>
+                <p id="blogAnswer">{blog.answer1}</p>
             </div>
-            <div>
-                <h5>{blog.question3}</h5>
-                <p>{blog.answer3}</p>
+            <div className="text-start mt-5 mb-5">
+                <h5 id="blogQuestion">{blog.question2}</h5>
+                <p id="blogAnswer">{blog.answer2}</p>
             </div>
-            <img src={blog.blogImg} alt={blog.imgAlt}/>
+            <div className="text-start mt-5 mb-5">
+                <h5 id="blogQuestion">{blog.question3}</h5>
+                <p id="blogAnswer">{blog.answer3}</p>
+            </div>
+            <div id="bobrossDiv" className="row">
+                <img className="col-6" src={blog.blogImg} alt={blog.imgAlt}/>
+                <div id="bobrossQuote" className="col-6 pt-3">"Just let go - and fall like a little waterfall"</div>
+            </div>
+            
         </div>
         )
 }
-
-/*
-navbar at the top
--Import Navbar
-
-
-Create an object for the blogs
-- title
-- body -> this may have an uneven amount of of questions and answers
-- associated picture with blog
-- footer (will be present on all pages eventually)
-
-Each blog page will have a title
-
-
-
-little icon to go with the theme of that week
-questions restated
-answers
-appropriate pictures will be displayed
-footer at the bottom
-
-*/
