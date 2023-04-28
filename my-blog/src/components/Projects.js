@@ -6,115 +6,160 @@ import todolisticon from "../img/project_icons/todolisticon.png";
 import restauranticon from "../img/project_icons/restauranticon.png";
 import budgeticon from "../img/project_icons/budgeticon.png";
 import sqlheroicon from "../img/project_icons/sqlheroicon.png";
+import djangojamsicon from "../img/project_icons/djangoJamsIcon.png";
+import wildsteppe from "../img/project_icons/wildsteppe.png";
 
 export default function Projects() {
-    let projects = [
-        {
-            title: "Weather App",
-            stack: "Javascript, API",
-            about: "What's the weather? Check out my project using javascript calling an API to get your weather!",
-            siteLink: "https://mkrs90.github.io/weather-app/",
-            repoLink: "https://mkrs90.github.io/weather-app/",
-            imgscr: weathericon,
-            imgalt: "Weather App"
-        },
-        {
-            title: "Tic-Tac-Toe Game",
-            stack: "Javascript",
-            about: "Up for a game of Tic-Tak-Toe? Check out my project using only javascript and play a childhood classic game!",
-            siteLink: "https://mkrs90.github.io/tic-tac-toe/",
-            repoLink: "/",
-            imgscr: tictactoeicon,
-            imgalt: "Tic-tac-toe App"
-        },
-        {
-            title: "Mind Reader Game",
-            stack: "Subheader",
-            about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-            siteLink: "/",
-            repoLink: "/",
-            imgscr: brainreadericon,
-            imgalt: "Mind Reader Game"
-        },
-        {
-            title: "Alarm Clock",
-            stack: "Subheader",
-            about: "Example",
-            siteLink: "/",
-            repoLink: "/",
-            imgscr: alarmclockicon,
-            imgalt: "Alarm Clock App",
-        },
-        {
-            title: "To Do List App",
-            stack: "React, Javascript",
-            about: "Example",
-            siteLink: "/",
-            repoLink: "/",
-            imgscr: todolisticon,
-            imgalt: "To Do List App",
-        },
-        {
-            title: "React Restaurant",
-            stack: "React, Javascript, CSS, API",
-            about: "Feeling hungry? Check out the menu at Happy Escape Eatery a project focusing on react!",
-            siteLink: "https://mkrs90.github.io/react-restaurant/",
-            repoLink: "https://github.com/mkrs90/react-restaurant",
-            imgscr: restauranticon,
-            imgalt: "Restaurant Icon",
-        },
-        {
-            title: "Python Budget",
-            stack: "Python",
-            about: "Track your spending and get your budget under control with this python budget program",
-            siteLink: "/",
-            repoLink: "/",
-            imgscr: budgeticon,
-            imgalt: "Budget Icon",
-        },
-        {
-            title: "SQL Heroes",
-            stack: "Python, SQL",
-            about: "View, Create, Update, and Eliminate Sidekicks through this fun python/sql program.",
-            siteLink: "/",
-            repoLink: "/",
-            imgscr: sqlheroicon,
-            imgalt: "sql heroes Icon",
-        }
-    ]
+  let projects = [
+    {
+      title: "Weather App",
+      stack: "Javascript, API",
+      about:
+        "What's the weather? Check out my project using javascript calling an API to get your weather!",
+      siteLink: "https://mkrs90.github.io/weather-app/",
+      repoLink: "https://github.com/mkrs90/weather-app",
+      imgscr: weathericon,
+      imgalt: "Weather App",
+    },
+    {
+      title: "Tic-Tac-Toe Game",
+      stack: "Javascript",
+      about:
+        "Up for a game of Tic-Tak-Toe? Check out my project using only javascript and play a childhood classic game!",
+      siteLink: "https://mkrs90.github.io/tic-tac-toe/",
+      repoLink: "https://github.com/mkrs90/tic-tac-toe",
+      imgscr: tictactoeicon,
+      imgalt: "Tic-tac-toe App",
+    },
+    {
+      title: "Mind Reader Game",
+      stack: "Javascript",
+      about:
+        "This app can read your mind. Check it out and see if you can beat it.",
+      siteLink: "https://mkrs90.github.io/mind-reader/",
+      repoLink: "https://github.com/mkrs90/mind-reader",
+      imgscr: brainreadericon,
+      imgalt: "Mind Reader Game",
+    },
+    {
+      title: "Alarm Clock",
+      stack: "Javascript",
+      about:
+        "Did I forget something? If only I had used this alarm clock to remind me to write something nifty here!",
+      siteLink: "https://mkrs90.github.io/alarm-clock/",
+      repoLink: "https://github.com/mkrs90/alarm-clock",
+      imgscr: alarmclockicon,
+      imgalt: "Alarm Clock App",
+    },
+    {
+      title: "To Do List App",
+      stack: "React, Javascript",
+      about:
+        "Things to do? Get them organize and prioritized with this to do list app.",
+      siteLink: "/",
+      repoLink: "https://github.com/mkrs90/to-do-list",
+      imgscr: todolisticon,
+      imgalt: "To Do List App",
+    },
+    {
+      title: "React Restaurant",
+      stack: "React, Javascript, CSS, API",
+      about:
+        "Feeling hungry? Check out the menu at Happy Escape Eatery a project focusing on react!",
+      siteLink: "https://mkrs90.github.io/react-restaurant/",
+      repoLink: "https://github.com/mkrs90/react-restaurant",
+      imgscr: restauranticon,
+      imgalt: "Restaurant Icon",
+    },
+    {
+      title: "Python Budget",
+      stack: "Python",
+      about:
+        "Track your spending and get your budget under control with this python budget program",
+      siteLink: "https://github.com/mkrs90/budget-app",
+      repoLink: "https://github.com/mkrs90/budget-app",
+      imgscr: budgeticon,
+      imgalt: "Budget Icon",
+    },
+    {
+      title: "SQL Heroes",
+      stack: "Python, SQL",
+      about:
+        "View, Create, Update, and Eliminate Sidekicks through this fun python/sql terminal program.",
+      siteLink: "https://github.com/mkrs90/sql_heros",
+      repoLink: "https://github.com/mkrs90/sql_heros",
+      imgscr: sqlheroicon,
+      imgalt: "sql heroes Icon",
+    },
+    {
+      title: "Django Jams",
+      stack: "Python, Django",
+      about: "Create your own playlists and add/remove your favorite songs!",
+      siteLink: "https://github.com/mkrs90/django-jams",
+      repoLink: "https://github.com/mkrs90/django-jams",
+      imgscr: djangojamsicon,
+      imgalt: "django jams icon",
+    },
+    {
+      title: "WildSteppe",
+      stack: "Full Stack",
+      about:
+        "Let's get wild! Find your favorite trails and leave comments about what you loved. See a map and photos as well as all the cool things you can do there!",
+      siteLink: "/",
+      repoLink: "https://github.com/mkrs90/wildsteppe-frontend",
+      imgscr: wildsteppe,
+      imgalt: "WildSteppe Icon",
+    },
+  ];
 
-    return (
-        
-        <div id="projectPage" className="container-fluid text-center">
-            <div id="projectHeader">Projects</div>
-                <div className="row justify-content-evenly">
-                {projects.map(project => {
-                    return <ProjectCard project={project} />
-                })}
-            </div>
-        </div>
-    )
+  return (
+    <div id="projectPage" className="container-fluid text-center">
+      <div id="projectHeader">Projects</div>
+      <div className="row justify-content-evenly">
+        {projects.map((project) => {
+          return <ProjectCard project={project} />;
+        })}
+      </div>
+    </div>
+  );
 }
 
 export const ProjectCard = ({ project }) => {
-    return (
-        
-
-                <div className="col-4 card m-4" id="project_card" style={{ width: "18rem" }}>
-                    <img src={project.imgscr} className="card-img-top" alt={project.imgalt} />
-                    <div className="card-body text-center">
-                        <h5 className="card-title">{project.title}</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">{project.stack}</h6>
-                        <p className="card-text">{project.about}</p>
-                    </div>
-                    <div className="row card-footer customer-card text-center">
-                        <a href={project.siteLink} className="align-self-end btn btn-primary btn-block my-1">SEE THE SITE!</a>
-                        <a href={project.repoLink} className="align-self-end btn btn-primary btn-block my-1">SEE THE REPO!</a>
-                    </div>
-                </div>
-    )
-} 
-
+  return (
+    <div
+      className="col-4 card m-4 mt-5"
+      id="project_card"
+      style={{ width: "18rem" }}
+    >
+      <img src={project.imgscr} className="card-img-top" alt={project.imgalt} />
+      <div className="card-body text-center">
+        <h5 className="card-title">{project.title}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{project.stack}</h6>
+        <p className="card-text">{project.about}</p>
+      </div>
+      <div className="row card-footer customer-card text-center">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href={project.siteLink}
+          id="basic_button"
+          className="align-self-end btn btn-primary btn-block my-1"
+        >
+          SEE THE SITE!
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href={project.repoLink}
+          id="basic_button"
+          className="align-self-end btn btn-primary btn-block my-1"
+        >
+          SEE THE REPO!
+        </a>
+      </div>
+    </div>
+  );
+};
 
 // return (
 //     <div id="projectPage" className="container-fluid text-center">
@@ -153,7 +198,7 @@ export const ProjectCard = ({ project }) => {
 //                     <h5 className="card-title">Mind Reader Game</h5>
 //                     <h6 class="card-subtitle mb-2 text-muted">Subheader</h6>
 //                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-//                 </div>    
+//                 </div>
 //                 <div className="row card-footer text-center">
 //                     <a href="/" className="btn btn-primary btn-block my-1">SEE THE SITE!</a>
 //                     <a href="/" className="btn btn-primary btn-block my-1">SEE THE REPO!</a>

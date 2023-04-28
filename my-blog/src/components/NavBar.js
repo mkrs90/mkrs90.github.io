@@ -6,14 +6,14 @@ function NavBar() {
             
             <nav className="navbar navbar-expand">
                 <div className="container">
-                    <Link to="/" className="navbar-brand">Journey Through Code</Link>
+                    <Link to="/" id="nav_title" className="navbar-brand">Journey Through Code</Link>
                     <div>
                         <ul className="navbar-nav ml-auto">                            
-                                <Link to="/" className="nav-item ms-5 me-5">Home</Link>                        
-                                <Link to="/about" className="nav-item ms-5 me-5">About</Link>
-                                <Link to="/blogTeaser" className="nav-item ms-5 me-5">Blogs</Link>
+                                {/* <Link to="/" className="nav-item ms-5 me-5">Home</Link>                         */}
+                                <Link to="/about" className="nav-item ms-5 me-5">About Me</Link>
+                                {/* <Link to="/blogTeaser" className="nav-item ms-5 me-5">Blogs</Link> */}
                                 <Link to="/projects" className="nav-item ms-5 me-5">Projects</Link>
-                                <Link to="/contact" className="nav-item ms-5">Contact</Link>
+                                {/* <Link to="/contact" className="nav-item ms-5">Contact</Link> */}
                         </ul>
                     </div>
                 </div> 
