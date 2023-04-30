@@ -1,4 +1,5 @@
-import bobrossimg from '../img/bob-ross-quotes-cover_800.png';
+import bobrossimg from '../img/bob-ross-img.png';
+import trailheadimg from '../img/blog_icons/trailhead.png';
 
 function Blog(view) {
     
@@ -12,7 +13,8 @@ function Blog(view) {
             answer2: "I'm excited to learn more about javascript. I find it extremely interesting and such a powerful tool. We've only touched on it just a few times within this first week but I'm excited nonetheless.",
             question3: "What is something about you that can only be learned by reading this blog? ",
             answer3: "Here's a tidbit not a lot of people know - I actually have a degree in History with a focus on Russian Studies. I also love being creative! One of my favorite things to do is to paint. When I was a kid I loved watching Bob Ross which really inspired me to just create without worry of mistakes. I also love to hike the trials around Louisville as well as garden. My favorite season is summer!",
-            blogImg: bobrossimg
+            blogImg: bobrossimg,
+            imgAlt: "Bob Ross and Happy Trees"
         },
         { title: "Onboarding - Sprint 2", body: "I think they are the perfect trio. HTML to lay out your basic format, css to make it nice to look at and javascript...", project: '/' },
         { title: "HTML/CSS/JS/State", body: "What is the number one thing that held you back this week? Why? Bootstrap. I see the possibilities with it but...", project: '/' },
@@ -32,8 +34,7 @@ function Blog(view) {
 
     
     return (
-        <div>
-            <div id="singleBlogHeader" className="mt-2 text-center">Journey Through Code</div>
+        <div id="singleBlogMainPage" className='container-fluid p-5' >
             {blogs.filter((blog) => {
                 return blog.id === 1;
                 }).map(function (blog) {
@@ -49,44 +50,30 @@ export default Blog
 
 export const BlogCard = ({ blog }) => {
     return (
-        <div>
-            <h3>{blog.title}</h3>
-            <div>
-                <h5>{blog.question1}</h5>
-                <p>{blog.answer1}</p>
+        <div className='container pt-3 ps-5 pe-5 pb-5' id='singleBlogPage'>
+            <div className="text-center">
+                <div id="singleBlogHeader" className="mt-1 mb-3">Journey Through Code</div>
+                <div id="theTrailHead">The Trail Head</div>
+                <div id="blogTitle" className='display-5'>({blog.title})</div>
+                <img id="blog1Img" src={trailheadimg} alt="trailhead" />
             </div>
-            <div>
-                <h5>{blog.question2}</h5>
-                <p>{blog.answer2}</p>
+            <div className="text-start mt-2 mb-5">
+                <h5 id="blogQuestion">{blog.question1}</h5>
+                <p id="blogAnswer">{blog.answer1}</p>
             </div>
-            <div>
-                <h5>{blog.question3}</h5>
-                <p>{blog.answer3}</p>
+            <div className="text-start mt-5 mb-5">
+                <h5 id="blogQuestion">{blog.question2}</h5>
+                <p id="blogAnswer">{blog.answer2}</p>
             </div>
-            <img src={blog.blogImg} alt="Bob Ross Happy Trees"/>
+            <div className="text-start mt-5 mb-5">
+                <h5 id="blogQuestion">{blog.question3}</h5>
+                <p id="blogAnswer">{blog.answer3}</p>
+            </div>
+            <div id="bobrossDiv" className="row">
+                <img className="col-6" src={blog.blogImg} alt={blog.imgAlt}/>
+                <div id="bobrossQuote" className="col-6 pt-3">"Just let go - and fall like a little waterfall"</div>
+            </div>
+            
         </div>
         )
 }
-
-/*
-navbar at the top
--Import Navbar
-
-
-Create an object for the blogs
-- title
-- body -> this may have an uneven amount of of questions and answers
-- associated picture with blog
-- footer (will be present on all pages eventually)
-
-Each blog page will have a title
-
-
-
-little icon to go with the theme of that week
-questions restated
-answers
-appropriate pictures will be displayed
-footer at the bottom
-
-*/

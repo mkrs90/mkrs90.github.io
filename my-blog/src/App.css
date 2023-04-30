@@ -17,11 +17,20 @@ li {
   
 }
 
+#nav_title {
+  color:  #F2EBDF;
+}
+
+#nav_title:hover {
+  text-decoration: underline;
+  color:  #F2EBDF;
+}
+
 a:link { text-decoration: none; color:  #F2EBDF;}
 
 a:visited { text-decoration: none; color:  #F2EBDF;}
 
-a:hover { text-decoration: none; color:  #F2EBDF;}
+a:hover { text-decoration: underline; color:  #F2EBDF;}
 
 a:active { text-decoration: none; color:  #F2EBDF;}
 
@@ -62,20 +71,24 @@ a:active { text-decoration: none; color:  #F2EBDF;}
 
 #aboutPage {
   background-color: #F2EBDF;
+  width: 100vw;
+  min-height: 100vh;
 }
 
-#about_img_container {
-  background-color: #555945;
-}
 
 #about_img {
   border: 20px solid #555945;
+  border-radius: 50%;
+  height: 400px;
+}
 
+#aboutPage p {
+  font-family: 'Cabin', sans-serif;
+  font-size: 25px;
 }
 
 p {
   font-family: 'Cabin', sans-serif;
-  
 }
 
 .card-footer.card-custom {
@@ -161,6 +174,69 @@ font-family: 'Labrada', serif; */
   background-size: cover;
 }
 
+#blogTeaser_container{
+  background:	rgba(85,89,69, 0.8);
+  border-radius: 15px;
+}
+
+#blogPage .card {
+  box-shadow: 0 0 30px rgba(0, 0, 0, .50);
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+#blogPage .card:hover .img2 img{
+  border-color: #555945;
+  transition: .7s;
+}
+
+.main-text{
+  padding: 30px 0;
+  text-align: center;
+}
+
+.main-text h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+
+.main-text p {
+  font-size: 16px;
+  padding: 0 35px;
+}
+
+#blogPage .card {
+  background: #F2EBDF;
+}
+
+.profile-area {
+  padding: 80px 0;
+}
+
+.img1 img {
+  height: 300px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  width: 100%;
+}
+
+.img2 img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 7px solid #BFAA8F;
+  background-color: #F2EBDF;
+  margin-top: -80px;
+
+}
+
 #blogCard {
   background-color: #a2ac94;
 }
@@ -177,10 +253,74 @@ font-family: 'Labrada', serif; */
   color: #3e4437 !important;
 }
 
+#basic_button:hover {
+  background-color: #3e4437 !important;
+  border-color: #3e4437 !important;
+  color: #d4c9c1 !important;
+}
+
 /* --------Single Blog Page-------------- */
 
 #singleBlogHeader {
   font-family: 'Shadows Into Light', cursive;
   font-size: 120px;
   color: #182526;
+}
+
+#singleBlogPage {
+  background-color: 	rgb(162, 172, 148, .6);
+}
+
+#singleBlogMainPage {
+  background: rgba(0,0,0, .60) url(./img/path.png);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#bobrossDiv {
+  background-color: 	rgb(24, 37, 38, .5);
+}
+
+#bobrossQuote {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 120px;
+  color: #a2ac94;
+}
+
+#theTrailHead {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 100px;
+  color: #182526;
+}
+
+#blog1Img {
+  height: 200px;
+}
+
+#blogTitle {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 50px;
+  color: #182526;
+}
+
+#blogQuestion {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 40px;
+  color: #182526;
+}
+
+#blogAnswer {
+  font-size: 20px;
+  color: #182526;
+}
+
+#blog_quote {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 60px;
+  color: #a2ac94;
 }
