@@ -64,8 +64,7 @@ export default function Projects() {
     {
       title: "React Restaurant",
       stack: "React, Javascript, CSS, API",
-      about:
-        "Feeling hungry? Check out the menu at Happy Escape Eatery a project focusing on react!",
+      about: "Feeling hungry? Check out the menu at Happy Escape Eatery a project focusing on react!",
       siteLink: "https://mkrs90.github.io/react-restaurant/",
       repoLink: "https://github.com/mkrs90/react-restaurant",
       imgscr: restauranticon,
@@ -74,8 +73,7 @@ export default function Projects() {
     {
       title: "Python Budget",
       stack: "Python",
-      about:
-        "Track your spending and get your budget under control with this python budget program",
+      about: "Track your spending and get your budget under control with this python budget program",
       siteLink: "https://github.com/mkrs90/budget-app",
       repoLink: "https://github.com/mkrs90/budget-app",
       imgscr: budgeticon,
@@ -84,8 +82,7 @@ export default function Projects() {
     {
       title: "SQL Heroes",
       stack: "Python, SQL",
-      about:
-        "View, Create, Update, and Eliminate Sidekicks through this fun python/sql terminal program.",
+      about: "View, Create, Update, and Eliminate Sidekicks through this fun python/sql terminal program.",
       siteLink: "https://github.com/mkrs90/sql_heros",
       repoLink: "https://github.com/mkrs90/sql_heros",
       imgscr: sqlheroicon,
@@ -105,7 +102,7 @@ export default function Projects() {
       stack: "Full Stack",
       about:
         "Let's get wild! Find your favorite trails and leave comments about what you loved. See a map and photos as well as all the cool things you can do there!",
-      siteLink: "/",
+      siteLink: "https://wildsteppe-95857.web.app/",
       repoLink: "https://github.com/mkrs90/wildsteppe-frontend",
       imgscr: wildsteppe,
       imgalt: "WildSteppe Icon",

@@ -13,15 +13,20 @@ function About() {
             <img id='about_img' src={personalPic} alt="Katy Simpson" />
           </div>
           <p className="m-5 ps-5 pe-5">
-            My name is Katy Simpson. About a year ago I decided I wanted to do
-            something completely different with my life, decided to quit career and
-            start my Journey in learning code. I decided I wanted to take this journey
+            Hi, my name is Katy Simpson. I have worked in the manufacturing field for almost 10 years. In 2019 I started
+            working at a startup company in Louisville, KY that wanted to create breakthrough technology for
+            the neurological healthcare field and develope their own hardware and software solutions.
+            While I was working on manufacturing the hardware I was able to work closely work with the software team
+            and was amazed by what they could accomplish through code and how it was able to change both patient and
+            doctors lives for the better. I began to study javascript during my free time after work. I feel in love with it
+            and knew I this is what I wanted to do. I began to save money in hopes of joining a bootcamp to take my
+            journey to the next level. I found Awesome Inc U. Full Stack bootcamp and thought it was perfect! 
+            I left my manufacturing job and enrolled in the bootcamp. I wanted to take this journey
             to help better my life and the lives of those around me. This blog is here
             to showcase that journey through the awesome inc bootcamp and hopefully
-            into a fulfilling career in code. I love nature and hiking and saw many
-            similarities in prepping for a hike and struggling through rough terrain
-            and learning code so my blog makes many comparisons to that. So please
-            join my on my journey here and lets pack some snacks and make tracks!
+            into a fulfilling career in code. I also love nature and hiking and saw many
+            similarities in hiking so my blog makes many comparisons to that. So please
+            join me on my journey here and lets pack some snacks and make tracks!
           </p>
         </div>
         <div>

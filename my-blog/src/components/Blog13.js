@@ -8,8 +8,9 @@ function Blog13(view) {
             id: 13,
             title: "Final Project Week 1", 
             Q1: "After making it through the tech stack, where do you think your current gaps are?",
-            Q2: "Without considering the complexity, what is a custom hook you would write to help you in any aspect of web development (or something else...)",
-            Q3: "What is your opinion on documentation? (MVP, Stories, Points, Markdown, Personas, Readme, Pseudocode, etc.)",
+            A1: "",
+            Q2: "What is your opinion on documentation? (MVP, Stories, Points, Markdown, Personas, Readme, Pseudocode, etc.)",
+            A2: "I thought the documentation was extremely useful. Taking the time to work on it before the project allowed me to think some things through instead of diving in head first without knowing the overarching plan. It really could have been a disaster. I think for any major project documentation is key no mater your skill level but definitely when your first starting out and don't know exactly all the tips and tricks of the game yet. It's a very useful tool I hope to use a lot in the future.",
             icon: BlogIcon,
             img: blogimg
         },
@@ -49,10 +50,6 @@ export const Blog13Card = ({ blog }) => {
             <div className="text-start mt-5 mb-5">
                 <h5 id="blogQuestion">{blog.Q2}</h5>
                 {/* <p id="blogAnswer">{blog.A2}</p> */}
-            </div>
-            <div className="text-start mt-5 mb-5">
-                <h5 id="blogQuestion">{blog.Q3}</h5>
-                {/* <p id="blogAnswer">{blog.A3}</p> */}
             </div>
             <div id="bobrossDiv" className="row">
                 <img className="col-6" src={blog.img} alt=""/>

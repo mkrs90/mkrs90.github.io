@@ -8,7 +8,8 @@ function Blog10(view) {
             id: 10,
             title: "Django1",
             Q1: "What are you struggling with the most in the Tech Stack so far and why?",
-            Q2: "What companies or people (local or not) would you like to hear talk during a Bootcamp lunch and learn?", 
+            Q2: "What companies or people (local or not) would you like to hear talk during a Bootcamp lunch and learn?",
+            A2: "More companies out of Lexington. I understand that in the past most of the companies hiring out of the bootcamp have been ", 
             icon: BlogIcon,
             img: blogimg
         },

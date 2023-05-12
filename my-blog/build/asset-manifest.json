@@ -1,11 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e84bdee.css",
-    "main.js": "/static/js/main.34b46a40.js",
+    "main.css": "/static/css/main.33e86e25.css",
+    "main.js": "/static/js/main.52269aa8.js",
     "static/js/787.a361b86b.chunk.js": "/static/js/787.a361b86b.chunk.js",
     "static/media/topagraphicMapImage.png": "/static/media/topagraphicMapImage.502054ab79ea5b1c7e7d.png",
+    "static/media/riverImg.png": "/static/media/riverImg.2bfee34de4651c15ecc3.png",
+    "static/media/hikingImg.png": "/static/media/hikingImg.8f62ee6a6eb8503d015a.png",
+    "static/media/wetFeet.png": "/static/media/wetFeet.779774dcc095ead0d6c4.png",
+    "static/media/mossyStream.png": "/static/media/mossyStream.3c00de95089f20914dae.png",
+    "static/media/treeImg.png": "/static/media/treeImg.4bbad97a69785ce3946d.png",
+    "static/media/campingNight.png": "/static/media/campingNight.5cd00649de0a62980ad4.png",
     "static/media/path.png": "/static/media/path.94f80cb12a84d9f91e47.png",
+    "static/media/wildBear.png": "/static/media/wildBear.07592dc43b721e1facd6.png",
+    "static/media/deerImg.png": "/static/media/deerImg.8a56200859558e7606e0.png",
     "static/media/My_Photo.jpg": "/static/media/My_Photo.ffc935a50e9e4ed9a61c.jpg",
+    "static/media/bobRossSqr.png": "/static/media/bobRossSqr.d65dee213d98c54374d5.png",
+    "static/media/mountain.png": "/static/media/mountain.4d236311cdba4c2d3f61.png",
+    "static/media/nightSky.png": "/static/media/nightSky.a81823be2824c85c1068.png",
+    "static/media/mistyForest.png": "/static/media/mistyForest.ff9809e671f381df891c.png",
+    "static/media/madeIt.png": "/static/media/madeIt.127632be99da8e39c3e2.png",
     "static/media/bob-ross-img.png": "/static/media/bob-ross-img.be74b1a5800d269ac78a.png",
     "static/media/hiking_path.jpg": "/static/media/hiking_path.844f5bade0f6e1414bee.jpg",
     "static/media/brainreadericon.png": "/static/media/brainreadericon.aa6a288f101af58643be.png",
@@ -33,12 +46,12 @@
     "static/media/campsignIcon.png": "/static/media/campsignIcon.f019f9c8dcbfbc1f9593.png",
     "index.html": "/index.html",
     "static/media/Github.svg": "/static/media/Github.b16d6c3c1708e3e0281647cfe7e34d77.svg",
-    "main.6e84bdee.css.map": "/static/css/main.6e84bdee.css.map",
-    "main.34b46a40.js.map": "/static/js/main.34b46a40.js.map",
+    "main.33e86e25.css.map": "/static/css/main.33e86e25.css.map",
+    "main.52269aa8.js.map": "/static/js/main.52269aa8.js.map",
     "787.a361b86b.chunk.js.map": "/static/js/787.a361b86b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e84bdee.css",
-    "static/js/main.34b46a40.js"
+    "static/css/main.33e86e25.css",
+    "static/js/main.52269aa8.js"
   ]
 }

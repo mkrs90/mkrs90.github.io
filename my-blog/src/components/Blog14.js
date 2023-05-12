@@ -8,9 +8,13 @@ function Blog14(view) {
             id: 14,
             title: "Final Project Week 2", 
             Q1: "What was your experience like overall in the Bootcamp?",
+            A1: "It was an amazing experience. I honestly don't think I could have learned all of this on my own. It was over to soon in my opinion as I feel like there is so much more to learn but I also understand that the majority of learning and experience will come with landing that first software job.",
             Q2: "Take a look back at your blog posts over the last 16 weeks. Where do you see yourself growing the most? What is one thing that pops out as you being misinformed or that you think is funny compared to what you know now?",
+            A2: "They always say hindsight is 20/20 and it couldn't be more true here. I was so intimidated by code at first. 16 weeks ago the thought of learning multiple software languages during the course of this boot camp seemed extremely daunting. Then we found out that yeah, you actually be learning one language per week. It's crazy to me that I went through that. I can see myself growing throughout each week and each blog post. What an amazing experience this has been.",
             Q3: "If someone important was to read this blog, who would flatter you the most? Make sure your final portfolio, blog, homepage, final project, and whatever else is online and linked so future employers can learn about everything you did! Be sure to post the live link to social media and share it with your peers, friends, and family!",
+            A3: "Honestly, my husband, Nathan. He has always believed in me and gave me the opportunity and confidence to take this risk of changing the direction my life was going and I'm excited to continue down this path with him by my side. Thank you, Nathan! ",
             Q4: "Will you continue this blog throughout the rest of post-work? How about for the rest of the year? How about the rest of your life? Will you keep posting? Will you need to be stopped?",
+            A4: "I really want to try and keep up with it. I'm sure life will get in the way eventually but I love looking back and seeing how far I've come. I'll probably try and at least post once a year or after major events happened, like landing a software job or learning a new language. I'm excited to see what the future hold for me. Thanks for reading!",
             icon: BlogIcon,
             img: blogimg
         },
