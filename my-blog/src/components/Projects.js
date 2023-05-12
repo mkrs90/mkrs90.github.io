@@ -13,6 +13,7 @@ export default function Projects() {
   let projects = [
     {
       title: "Weather App",
+      week: "One",
       stack: "Javascript, API",
       about:
         "What's the weather? Check out my project using javascript calling an API to get your weather!",
@@ -23,6 +24,7 @@ export default function Projects() {
     },
     {
       title: "Tic-Tac-Toe Game",
+      week: "two",
       stack: "Javascript",
       about:
         "Up for a game of Tic-Tak-Toe? Check out my project using only javascript and play a childhood classic game!",
@@ -33,6 +35,7 @@ export default function Projects() {
     },
     {
       title: "Mind Reader Game",
+      week: 'three',
       stack: "Javascript",
       about:
         "This app can read your mind. Check it out and see if you can beat it.",
@@ -43,6 +46,7 @@ export default function Projects() {
     },
     {
       title: "Alarm Clock",
+      week: "four",
       stack: "Javascript",
       about:
         "Did I forget something? If only I had used this alarm clock to remind me to write something nifty here!",
@@ -53,6 +57,7 @@ export default function Projects() {
     },
     {
       title: "To Do List App",
+      week: "five",
       stack: "React, Javascript",
       about:
         "Things to do? Get them organize and prioritized with this to do list app.",
@@ -63,6 +68,7 @@ export default function Projects() {
     },
     {
       title: "React Restaurant",
+      week: "six",
       stack: "React, Javascript, CSS, API",
       about: "Feeling hungry? Check out the menu at Happy Escape Eatery a project focusing on react!",
       siteLink: "https://mkrs90.github.io/react-restaurant/",
@@ -72,6 +78,7 @@ export default function Projects() {
     },
     {
       title: "Python Budget",
+      week: "seven",
       stack: "Python",
       about: "Track your spending and get your budget under control with this python budget program",
       siteLink: "https://github.com/mkrs90/budget-app",
@@ -81,6 +88,7 @@ export default function Projects() {
     },
     {
       title: "SQL Heroes",
+      week: "eight",
       stack: "Python, SQL",
       about: "View, Create, Update, and Eliminate Sidekicks through this fun python/sql terminal program.",
       siteLink: "https://github.com/mkrs90/sql_heros",
@@ -90,6 +98,7 @@ export default function Projects() {
     },
     {
       title: "Django Jams",
+      week: "nine & ten",
       stack: "Python, Django",
       about: "Create your own playlists and add/remove your favorite songs!",
       siteLink: "https://github.com/mkrs90/django-jams",
@@ -99,6 +108,7 @@ export default function Projects() {
     },
     {
       title: "WildSteppe",
+      week: "Capstone Project",
       stack: "Full Stack",
       about:
         "Let's get wild! Find your favorite trails and leave comments about what you loved. See a map and photos as well as all the cool things you can do there!",
